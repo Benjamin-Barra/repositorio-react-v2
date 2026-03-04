@@ -1,0 +1,41 @@
+.skills{
+    background-color: gray;
+    max-width: 100%;
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills .container_icons{
+    width: 90%;
+    height: auto;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    background-color: aquamarine;
+}
+
+
+
+.skills .container_icons .icono_skill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.skills .container_icons .icono_skill ion-icon{
+    font-size: 60px;
+    padding: 10px;
+    border: 2px solid red;
+    border-radius: 40px;
+    transition: 0.5s ease;
+}
+
+.skills .container_icons .icono_skill ion-icon:hover{
+    transform: scale(1.10);
+}
