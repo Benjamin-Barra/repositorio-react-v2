@@ -1,0 +1,13 @@
+.container_trabajos{
+    display: grid;
+}
+
+.trabajo{
+    width: 100%;
+    background-color: black;
+}
+
+.trabajo img{
+    width: 100%;
+
+}
